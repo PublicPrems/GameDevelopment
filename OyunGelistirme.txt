@@ -1,0 +1,49 @@
+Public Prems Dizaynı
+
+-Enemy Spawnların tanımlanması.
+
+-Sahne üzerinde assetlerin tanımlanması ve animasyonların yapılması.
+
+-Factory Design pattern kullanarak enemy tiplerinin rastgele şekilde belirli aralıklarla gönderilmesi.
+
+-Yazılan kodun yeniden kullanılabilirliği yüksek olmalı, birbiri ile az bağlaşık tasarımlar yapılmalı. 
+
+-Aynı kodları yeniden yazmamam gerekli kalıtım ilişkisi ve interfaceler yardımı ile duplicate kodlardan arındırılmalı.
+
+
+
+
+Yapılması Gereken Araştırmalar:
+
+	-Shooting olayının araştırılması gerekir. (Atılan okun bir yere çarpması ve çarptığı yerde kalması.)
+
+	-Okun fırlatılması kısmındaki scale olayını ve yön olayını araştıracağım.
+
+	-Animasyon olaylarını: 
+		-Okun bacağa saplanması ve orada kalması. 
+		-Okun çarptığı yeri kanatması.
+		-Kalede ok atışı yaparken ipin gerilmesi animasyonu.
+		-Okun yere düşerse yerde kalması, gerekirse yok olması.
+		-Vurulan adamların ölme animasyonlarının yapılması.
+		-Kalenin kırılması animasyonu.
+		-
+
+	
+
+
+
+Gelecek Özellikler:
+
+	-Threadler kullanılarak yapılan projenin performansının hızlandırılması.
+	
+	-Kaleye düşmanlara saldırı yapacak ekipmanların takılması.
+	-Ok türlerinin çeşitlendirilmesi.
+	-Premsin giysilerinin çeşitlendirilmesi.
+	-Kalenin çeşitlendirilmesi.
+
+
+Public Premsese Notlar:
+	-Yapılan çizimleri animasyonlarını da yapılması.
+	-Gerekirse animasyon yapabileceği toollar kullanması. Bilinmiyorsa bu toolların araştırılması.
+	-Arka plan çizimlerinin yapılması. 
+	-Skor tutulması için veya farklı şeyler için canvas iconlarının oluşturulması.(kalp lazım olursa mesela.)
